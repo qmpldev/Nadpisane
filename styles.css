@@ -14,6 +14,12 @@ header{
 }
 header .btns > svg{
     width: 20px;
+    transition: 0.1s;
+}
+header .btns > svg:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: 0.1s;
 }
 .logo img{
     width: 40px;
@@ -54,6 +60,12 @@ header .btns > svg{
     border-radius: 20px;
     display: flex;
     align-items: flex-end;
+    transition: 0.3s;
+}
+.headarticle .articleimg:hover{
+    transform: scale(1.01);
+    transition: 0.3s;
+    cursor: pointer;
 }
 .articleimg .articleinfo{
     color: white;
@@ -98,6 +110,7 @@ header .btns > svg{
     background-position: center;
     border-radius: 10px;
     background-image: url(./images/riot2.jpg);
+    transition: 0.3s;
 }
 .larticles .larticle .larticleinfo span{
     margin-left: 10%;
@@ -105,6 +118,11 @@ header .btns > svg{
 }
 .larticles .larticle .larticleinfo > p{
     font-size: 80%;
+}
+.larticles .larticle .larticleimg:hover{
+    transform: scale(1.01);
+    transition: 0.3s;
+    cursor: pointer;
 }
 footer{
     padding: 0 15vw;
