@@ -90,17 +90,17 @@ header .btns > svg:hover{
     margin-bottom: 5vh;
 }
 .larticles{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
     padding: 0 15vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 30vh;
-    margin-bottom: 10vh;
 }
 .larticles .larticle{
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 100%;
     gap: 10px;
 }
 .larticles .larticle .larticleimg{
@@ -195,8 +195,8 @@ footer .footer-links > svg:hover{
     .larticles{
         padding: 0 10vw;
         display: flex;
-        height: 125vh;
         flex-direction: column;
+        gap: 30px;
     }
     .larticles .larticle{
         display: flex;
