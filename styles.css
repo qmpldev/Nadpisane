@@ -179,7 +179,19 @@ footer .footer-links > svg:hover{
     margin-left: 10%;
     color: rgb(227, 227, 227);
 }
-
+.articleimg2 .articleinfo h3{
+    font-size: 50px;
+}
+.articletext{
+    padding: 0 15vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.articletext h4{
+    padding-bottom: 5vh;
+    border-bottom: 1px solid black;
+    margin-bottom: 5vh;
+}
 @media only screen and (max-width: 1000px){
     header{
         padding: 0 10vw;
@@ -227,5 +239,8 @@ footer .footer-links > svg:hover{
     }
     .larticles .larticle .larticleimg{
         height: 180px;
+    }
+    .articletext{
+        padding: 0 10vw;
     }
 }
