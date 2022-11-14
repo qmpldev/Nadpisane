@@ -159,6 +159,28 @@ footer .footer-links > svg:hover{
     transition: 0.3s;
 }
 
+.headarticle .articleimg2{
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/riot2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.3s;
+}
+.articleimg2 .articleinfo{
+    color: white;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+.articleimg2 .articleinfo span{
+    margin-left: 10%;
+    color: rgb(227, 227, 227);
+}
+
 @media only screen and (max-width: 1000px){
     header{
         padding: 0 10vw;
