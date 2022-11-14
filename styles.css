@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 header{
     height: 10vh;
     display: flex;
@@ -30,7 +31,9 @@ header .btns > svg:hover{
     align-items: center;
     gap: 10px;
 }
-
+.logo:hover{
+    cursor: pointer;
+}
 .btns{
     display: flex;
     gap: 30px;
@@ -67,6 +70,7 @@ header .btns > svg:hover{
     transition: 0.3s;
     cursor: pointer;
 }
+
 .articleimg .articleinfo{
     color: white;
     margin-bottom: 5%;
@@ -101,6 +105,7 @@ header .btns > svg:hover{
     flex-direction: column;
     width: 100%;
     gap: 10px;
+    transition: 0.3s;
 }
 .larticles .larticle .larticleimg{
     width: 100%;
@@ -118,7 +123,7 @@ header .btns > svg:hover{
 .larticles .larticle .larticleinfo > p{
     font-size: 80%;
 }
-.larticles .larticle .larticleimg:hover{
+.larticles .larticle:hover{
     transform: scale(1.01);
     transition: 0.3s;
     cursor: pointer;
@@ -187,10 +192,28 @@ footer .footer-links > svg:hover{
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
+.articletext .dziennikarz{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    gap: 20px;
+}
+.articletext .dziennikarz .dziennikarzimg{
+    width: 50px;
+    border-radius: 100%;
+    background-image: url(./images/qmpl.png);
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+}
 .articletext h4{
     padding-bottom: 5vh;
     border-bottom: 1px solid black;
     margin-bottom: 5vh;
+    padding-top: 5vh;
+    border-top: 1px solid black;
 }
 @media only screen and (max-width: 1000px){
     header{
