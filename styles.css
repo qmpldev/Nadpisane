@@ -87,7 +87,6 @@ header .btns > svg:hover{
     height: 10vh;
     display: flex;
     align-items: center;
-    margin-bottom: 5vh;
 }
 .larticles{
     display: grid;
